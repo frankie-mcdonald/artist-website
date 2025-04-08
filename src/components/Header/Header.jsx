@@ -12,7 +12,7 @@ function Header() {
         <li className="header__item">3D Animation</li>
         <li className="header__item">Web Development</li>
         <li className="header__item">Beadwork</li>
-        <ul className="header__icon-list">
+        {/* <ul className="header__icon-list">
           <li className="header__icon-item">
             <img className="header__icon" src={GitHub} alt="" />
           </li>
@@ -25,7 +25,7 @@ function Header() {
           <li className="header__icon-item">
             <img className="header__icon" src={Youtube} alt="" />
           </li>
-        </ul>
+        </ul> */}
       </ul>
     </div>
   );
