@@ -1,0 +1,41 @@
+@use "../../styles/variables" as *;
+@use "../../styles/mixins" as *;
+
+.about {
+  background-color: rgb(4, 14, 8);
+  text-align: center;
+  color: white;
+  &__list {
+    padding: 2rem;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  &__item {
+    border: 1px rgb(255, 255, 255) solid;
+    width: 80%;
+    // height: 20rem;
+    border-radius: 2rem;
+    margin: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    background-color: rgb(5, 21, 21);
+  }
+  &__image {
+    width: 90%;
+    border-radius: 1rem;
+    margin: 1rem 0;
+    border: white 1px solid;
+  }
+  &__button {
+    background-color: teal;
+    width: 90%;
+    padding: 1rem;
+    margin: 1rem 0;
+    text-align: center;
+    border-radius: 0.5rem;
+  }
+}
