@@ -1,0 +1,23 @@
+@use "../../styles/variables" as *;
+@use "../../styles//mixins" as *;
+.hero {
+  color: white;
+  background: url("../../assets/images/Into_the_water.jpg");
+  background-size: cover;
+  background-position: center;
+  padding: 3rem;
+  text-align: center;
+  height: 27rem;
+  &__title {
+    padding: 10rem 0 0 0;
+    font-size: 3rem;
+    font-family: "Shrikhand", serif;
+    font-weight: 100;
+    @include mobile {
+      font-size: 4.5rem;
+    }
+  }
+  &__subtext {
+    padding: 1rem 0;
+  }
+}
