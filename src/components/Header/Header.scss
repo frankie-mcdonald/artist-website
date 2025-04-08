@@ -1,0 +1,28 @@
+.header {
+  color: white;
+  background: url("../../assets/images/Into_the_water.jpg");
+  background-size: cover;
+  background-position: center;
+  padding: 3rem;
+  &__title {
+    padding: 1rem 0;
+  }
+  &__subtext {
+    padding: 1rem 0;
+  }
+  &__list {
+    list-style: none;
+    padding: 1rem 0;
+  }
+  &__item {
+    padding: 0.5rem 0;
+  }
+  &__icon-list {
+    list-style: none;
+    display: flex;
+  }
+  &__icon {
+    width: 2rem;
+    margin: 0.5rem;
+  }
+}
