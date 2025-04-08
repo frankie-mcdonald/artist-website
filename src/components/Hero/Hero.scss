@@ -7,7 +7,7 @@
   background-position: center;
   padding: 3rem;
   text-align: center;
-  height: 27rem;
+  // height: 27rem;
   &__title {
     padding: 10rem 0 0 0;
     font-size: 3rem;
@@ -19,5 +19,8 @@
   }
   &__subtext {
     padding: 1rem 0;
+    // background-color: black;
+    border: solid 1px rgb(71, 163, 163);
+    border-width: 0 0 1px 0;
   }
 }
