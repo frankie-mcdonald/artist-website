@@ -6,6 +6,7 @@ function App() {
     <>
       <Header />
       <h1 className="bob">Frankie McDonald</h1>
+      <h2>This is my website</h2>
     </>
   );
 }
